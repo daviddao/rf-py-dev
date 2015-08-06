@@ -1,0 +1,8 @@
+f = open("clean.sh", "w")
+
+for i in range(400):
+    rm = "rm -rf *.T" + str(i)
+
+    f.write(rm + "\n")
+
+f.close()
